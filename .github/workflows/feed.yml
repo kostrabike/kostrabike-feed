@@ -1,0 +1,67 @@
+name: Bikeroom feed
+
+on:
+  schedule:
+    - cron: '17 4,16 * * *'   # každých 12 hodín (UTC) – 5:17 a 17:17 SEČ
+  workflow_dispatch:          # ručné spustenie z GitHubu (Actions → Run workflow)
+
+permissions:
+  contents: write    # commit feedu a histórie
+  issues: write      # notifikácia o zmenách
+  pages: write       # publikovanie na GitHub Pages
+  id-token: write
+
+concurrency:
+  group: bikeroom-feed
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          extensions: curl, zip, xmlreader, mbstring
+          tools: composer
+
+      - name: Install dependencies
+        run: composer install --no-interaction --no-progress --prefer-dist
+
+      - name: Build feed
+        env:
+          FEED_SOURCE_URL: ${{ secrets.FEED_SOURCE_URL }}
+        run: php build.php
+
+      - name: Commit feed and history
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs changes data
+          if git diff --cached --quiet; then
+            echo "Nič na commit."
+          else
+            git commit -m "Feed $(TZ=Europe/Bratislava date +'%Y-%m-%d %H:%M')"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - id: deploy
+        uses: actions/deploy-pages@v4
+
+      - name: Notify about changes
+        if: hashFiles('tmp/notify.md') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create \
+            --title "Zmeny feedu $(TZ=Europe/Bratislava date +'%Y-%m-%d %H:%M')" \
+            --body-file tmp/notify.md

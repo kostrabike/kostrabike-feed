@@ -1,0 +1,7 @@
+/vendor/
+/tmp/
+*.tmp
+
+# partnerské podklady Bikeroom – nezverejňovať
+Bikeroom-Product-Feed-Guide.pdf
+bikeroom-feed-esempio.csv

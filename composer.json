@@ -1,0 +1,19 @@
+{
+    "name": "kostrabike/bikeroom-feed",
+    "description": "Generátor Bikeroom CSV feedu zo Shoptet exportu KostraBike",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.2",
+        "ext-curl": "*",
+        "ext-zip": "*",
+        "ext-xmlreader": "*",
+        "openspout/openspout": "^4.24"
+    },
+    "autoload": {
+        "psr-4": { "Feed\\": "src/" }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
