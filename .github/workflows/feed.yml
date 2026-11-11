@@ -6,10 +6,7 @@ on:
   workflow_dispatch:          # ručné spustenie z GitHubu (Actions → Run workflow)
 
 permissions:
-  contents: write    # commit feedu a histórie
-  issues: write      # notifikácia o zmenách
-  pages: write       # publikovanie na GitHub Pages
-  id-token: write
+  contents: read
 
 concurrency:
   group: bikeroom-feed
@@ -18,17 +15,15 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+    permissions:
+      contents: write    # commit feedu, histórie a cache rokov
+      issues: write      # notifikácia o zmenách
     steps:
       - uses: actions/checkout@v4
 
-      - uses: shivammathur/setup-php@v2
-        with:
-          php-version: '8.3'
-          extensions: curl, zip, xmlreader, mbstring
-          tools: composer
+      # PHP 8.3 + Composer sú na ubuntu-latest predinštalované
+      - name: PHP version
+        run: php -v && php -m | grep -Ei '^(curl|zip|xmlreader)$' && composer --version
 
       - name: Install dependencies
         run: composer install --no-interaction --no-progress --prefer-dist
@@ -50,12 +45,9 @@ jobs:
             git push
           fi
 
-      - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docs
-      - id: deploy
-        uses: actions/deploy-pages@v4
 
       - name: Notify about changes
         if: hashFiles('tmp/notify.md') != ''
@@ -65,3 +57,16 @@ jobs:
           gh issue create \
             --title "Zmeny feedu $(TZ=Europe/Bratislava date +'%Y-%m-%d %H:%M')" \
             --body-file tmp/notify.md
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4
