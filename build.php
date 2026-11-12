@@ -139,10 +139,12 @@ try {
     $stats['Rok – dohľadaný na webe výrobcu'] = $ys['web'] ?? 0;
     $stats['Rok – zadaný ručne'] = $ys['ručne'] ?? 0;
     $stats['Rok – chýba'] = $ys[''] ?? 0;
+    $unusedManual = $years->unusedManual();
+    $stats['manual_years.csv – nepoužité riadky (dajú sa zmazať)'] = count($unusedManual);
     $repo = getenv('GITHUB_REPOSITORY') ?: null;
     $repoUrl = $repo ? 'https://github.com/' . $repo : null;
     $report->writeMissingYears($paths['public'] . '/missing_years.csv', $all);
-    $report->writeHtml($paths['public'] . '/index.html', $stats, $now, $repoUrl, $all);
+    $report->writeHtml($paths['public'] . '/index.html', $stats, $now, $repoUrl, $all, $unusedManual);
 
     // ---- diff + história + notifikácia
     $diff = new Diff($old, $new, $columns);

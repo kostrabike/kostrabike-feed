@@ -18,6 +18,10 @@ final class YearResolver
 
     /** @var array<string, string> key => year */
     private array $manual = [];
+    /** @var array<string, array<string,string|int>> key => riadok z manual_years.csv (+ line) */
+    private array $manualRows = [];
+    /** @var array<string, true> kľúče z manual_years.csv použité v tomto behu */
+    private array $manualUsed = [];
     /** @var array<string, array<string,string>> key => cache row */
     private array $cache = [];
     /** @var list<string> */
@@ -34,7 +38,15 @@ final class YearResolver
                 $this->notes[] = sprintf('manual_years.csv riadok %d: neplatný rok "%s" – ignorujem', $i + 2, $year);
                 continue;
             }
-            $this->manual[self::key($r['brand'] ?? '', $r['model'] ?? '', $r['color'] ?? '')] = $year;
+            $key = self::key($r['brand'] ?? '', $r['model'] ?? '', $r['color'] ?? '');
+            $this->manual[$key] = $year;
+            $this->manualRows[$key] = [
+                'line'  => $i + 2,
+                'brand' => trim($r['brand'] ?? ''),
+                'model' => trim($r['model'] ?? ''),
+                'color' => trim($r['color'] ?? ''),
+                'year'  => $year,
+            ];
         }
         foreach (self::readCsv($cachePath) as $r) {
             if (($r['key'] ?? '') !== '') {
@@ -67,6 +79,7 @@ final class YearResolver
             if (isset($this->manual[$key])) {
                 $item['model_year'] = $this->manual[$key];
                 $item['_year_source'] = 'ručne';
+                $this->manualUsed[$key] = true;
                 continue;
             }
             if ($item['model_year'] !== '') {
@@ -120,6 +133,18 @@ final class YearResolver
         $rows = $this->cache;
         ksort($rows);
         Csv::write($this->cachePath, self::CACHE_COLUMNS, $rows);
+    }
+
+    /**
+     * Riadky z manual_years.csv (s vyplneným rokom), ktoré v tomto behu nezodpovedali žiadnemu produktu
+     * (produkt vypredaný / skrytý / zmazaný, alebo preklep v značke, modeli či farbe). Volať po apply().
+     * @return list<array<string,string|int>>
+     */
+    public function unusedManual(): array
+    {
+        $out = array_values(array_diff_key($this->manualRows, $this->manualUsed));
+        usort($out, static fn ($a, $b) => $a['line'] <=> $b['line']);
+        return $out;
     }
 
     /** Vytvorí manual_years.csv s hlavičkou, ak neexistuje. */

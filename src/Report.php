@@ -87,8 +87,9 @@ final class Report
     /**
      * @param array<string,int|string> $stats
      * @param array<string, array<string,string>> $items
+     * @param list<array<string,string|int>> $unusedManual riadky z manual_years.csv bez zodpovedajúceho produktu
      */
-    public function writeHtml(string $path, array $stats, string $generatedAt, ?string $repoUrl, array $items = []): void
+    public function writeHtml(string $path, array $stats, string $generatedAt, ?string $repoUrl, array $items = [], array $unusedManual = []): void
     {
         $h = static fn ($s) => htmlspecialchars((string) $s, ENT_QUOTES);
         $statRows = '';
@@ -111,6 +112,23 @@ final class Report
                     . '</td><td>' . $h($m['_hint']) . '</td><td>' . $h(implode(', ', $m['_ids'])) . '</td></tr>';
             }
             $sections .= '</tbody></table></div>';
+        }
+
+        // nepoužité ručné roky – na upratanie data/manual_years.csv (robot ich nikdy nemaže sám)
+        $sections .= '<h2>Nepoužité riadky v manual_years.csv (' . count($unusedManual) . ')</h2>';
+        if ($unusedManual) {
+            $sections .= '<p class="muted">Tieto riadky nezodpovedajú žiadnemu produktu, ktorý by išiel do feedu (vypredaný, skrytý, zmazaný…). '
+                . 'Môžeš ich bez rizika zmazať; ak sa produkt vráti, objaví sa znova v chýbajúcich rokoch. '
+                . 'Ak si riadok pridal práve teraz a je tu, skontroluj preklep v značke, modeli alebo farbe.'
+                . ($repoUrl ? ' <a href="' . $h($repoUrl) . '/edit/main/data/manual_years.csv">Upraviť data/manual_years.csv</a>' : '') . '</p>'
+                . '<div class="scroll"><table><thead><tr><th class="n">Riadok</th><th>brand</th><th>model</th><th>color</th><th>year</th></tr></thead><tbody>';
+            foreach ($unusedManual as $m) {
+                $sections .= '<tr><td class="n">' . $h($m['line']) . '</td><td>' . $h($m['brand']) . '</td><td>' . $h($m['model'])
+                    . '</td><td>' . $h($m['color']) . '</td><td>' . $h($m['year']) . '</td></tr>';
+            }
+            $sections .= '</tbody></table></div>';
+        } else {
+            $sections .= '<p class="muted">Žiadne – všetky ručne zadané roky sa používajú.</p>';
         }
 
         $titles = [
