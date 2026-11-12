@@ -30,8 +30,11 @@ final class NameParser
      * @param string       $knownSize  veľkosť zo štruktúrovaného zdroja (pomôže nájsť správne miesto v názve)
      * @return array{model:string, size:string, color:string, year:string}
      */
-    public function parse(string $name, array $prefixes, string $knownSize = ''): array
+    public function parse(string $name, array $prefixes, string $knownSize = '', string $style = ''): array
     {
+        if ($style === 'kellys') {
+            return $this->parseKellys($name, $prefixes, $knownSize);
+        }
         $s = self::squash($name);
 
         foreach ($prefixes as $p) {
@@ -80,6 +83,58 @@ final class NameParser
         return [
             'model' => self::cleanPart($model),
             'size'  => $size,
+            'color' => self::cleanPart($color),
+            'year'  => $year,
+        ];
+    }
+
+    /**
+     * Kellys: "KELLYS Tygon RS50 P Pine Forest L 29" 820Wh"  -> model "Tygon RS50 P", farba "Pine Forest", veľkosť "L"
+     *         "KELLYS e-Soot 70 L Ivory White"                -> model "e-Soot 70",    farba "Ivory White"
+     *         "KELLYS Theos F100 SH M 29"/27.5" 825Wh"        -> model "Theos F100 SH", farba "" (doplní sa z variant:Farba)
+     * Model = slová po posledné "typové" slovo (obsahuje číslicu alebo je to krátka skratka veľkými písmenami: P, SH, COMP…),
+     * farba = zvyšné slová pred veľkosťou + slová za veľkosťou. Rozmer kolies (29", 27.5") a batéria (820Wh) sa zahodia.
+     * @return array{model:string, size:string, color:string, year:string}
+     */
+    private function parseKellys(string $name, array $prefixes, string $knownSize): array
+    {
+        $s = self::squash($name);
+        foreach ($prefixes as $p) {
+            if (stripos($s, $p . ' ') === 0) {
+                $s = substr($s, strlen($p) + 1);
+                break;
+            }
+        }
+        $year = preg_match('/(?<![\w])(20[1-3]\d)(?![\w])/u', $s, $m) ? $m[1] : '';
+        $s = preg_replace('/(?<![\w])20[1-3]\d(?![\w])/u', '', $s);
+        $s = preg_replace('/(?<!\S)\d+(?:[.,]\d+)?"(?:\/\d+(?:[.,]\d+)?")*(?!\S)/u', '', $s);   // 29"  29"/27.5"
+        $s = preg_replace('/(?<!\S)\d+\s?Wh(?!\S)/iu', '', $s);                               // 820Wh
+        $t = preg_split('/\s+/u', self::squash($s), -1, PREG_SPLIT_NO_EMPTY);
+        $n = count($t);
+
+        $known = self::norm($knownSize);
+        $idx = null;
+        for ($i = $n - 1; $i >= 1 && $known !== ''; $i--) {
+            if (self::norm($t[$i]) === $known) { $idx = $i; break; }
+        }
+        for ($i = $n - 1; $i >= 1 && $idx === null; $i--) {
+            if (isset($this->sizes[self::norm($t[$i])])) { $idx = $i; break; }
+        }
+        $before = $idx === null ? $t : array_slice($t, 0, $idx);
+        $after  = $idx === null ? [] : array_slice($t, $idx + 1);
+
+        $last = 0;   // prvé slovo je vždy model
+        foreach ($before as $i => $w) {
+            if (preg_match('/\d/', $w) || preg_match('/^[A-Z]{1,4}$/', $w)) {
+                $last = $i;
+            }
+        }
+        $model = implode(' ', array_slice($before, 0, $last + 1));
+        $color = implode(' ', array_merge(array_slice($before, $last + 1), $after));
+
+        return [
+            'model' => self::cleanPart($model),
+            'size'  => $idx === null ? '' : $t[$idx],
             'color' => self::cleanPart($color),
             'year'  => $year,
         ];

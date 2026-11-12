@@ -25,6 +25,7 @@ return [
             'CTM'          => 'CTM',
             'Mondraker'    => 'Mondraker',
             'Cube'         => 'Cube',
+            'Kellys'       => 'Kellys',
         ],
         // povolené hodnoty stĺpca productVisibility
         'visibility' => ['visible'],
@@ -63,6 +64,11 @@ return [
         'CTM'          => ['CTM'],
         'Mondraker'    => ['Mondraker'],
         'Cube'         => ['Cube'],
+        'Kellys'       => ['Kellys'],
+    ],
+    // Špeciálne čítanie názvu pre značku (src/NameParser.php). Ostatné značky = všeobecné pravidlá.
+    'name_styles' => [
+        'Kellys' => 'kellys',   // "Tygon RS50 P Pine Forest L 29" 820Wh" -> model / farba / veľkosť
     ],
 
     // Tokeny, ktoré v názve považujeme za veľkosť rámu.
@@ -83,6 +89,10 @@ return [
     'brand_overrides' => [
         'CTM' => [
             'size' => ['prop:Veľkosť rámu', 'name', 'filteringProperty:Veľkosť'],
+        ],
+        // Kellys: presná farba je iba v názve, variant:Farba je všeobecná (Grey, Anthracite…) – použije sa len ak v názve nie je
+        'Kellys' => [
+            'color' => ['name', 'variant:Farba', 'prop:Farba'],
         ],
     ],
 

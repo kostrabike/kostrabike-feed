@@ -68,7 +68,8 @@ final class Mapper
 
         // veľkosť zo štruktúrovaných zdrojov (bez 'name') – pomôže parseru nájsť ju v názve
         $structSize = $this->pick(array_diff($sources['size'], ['name']), $r, $props, [], 'size');
-        $parsed = $this->parser->parse($r['name'] ?? '', $this->cfg['name_prefixes'][$manufacturer] ?? [$manufacturer], $structSize);
+        $parsed = $this->parser->parse($r['name'] ?? '', $this->cfg['name_prefixes'][$manufacturer] ?? [$manufacturer], $structSize,
+            $this->cfg['name_styles'][$manufacturer] ?? '');
         $fromName = ['size' => $parsed['size'], 'color' => $parsed['color'], 'model_year' => $parsed['year'], 'model' => $parsed['model']];
 
         $preowned = (bool) preg_match($this->cfg['preowned']['pattern'], ($r['name'] ?? '') . ' ' . ($r['shortDescription'] ?? ''));
