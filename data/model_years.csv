@@ -37,6 +37,7 @@ key,brand,model,color,year,status,candidates,source,checked
 "giant|fathom-e+ 2|stardustgrey",Giant,"Fathom-E+ 2","Stardust Grey",2027,match,2027,https://www.giant-bicycles.com/cz/fathom-eplus-2-2027,2026-11-11
 "giant|fathom-e+ ex|goodgrey",Giant,"Fathom-E+ EX","Good Grey",,nopage,,,2026-11-11
 giant|fathom-e+|deeplake,Giant,Fathom-E+,"Deep lake",,nopage,,,2026-11-11
+"giant|glory advanced|shoreline",Giant,"Glory Advanced",Shoreline,,nopage,,,2026-11-13
 "giant|lurra-e+ 2|seasparkle",Giant,"Lurra-E+ 2","Sea Sparkle",,nopage,,,2026-11-11
 "giant|lurra-e+ ex|graydawn",Giant,"Lurra-E+ EX","Gray Dawn",,nopage,,,2026-11-11
 giant|lurra-e+|lunareclipse,Giant,Lurra-E+,"Lunar Eclipse",,nopage,,,2026-11-11
@@ -48,6 +49,7 @@ giant|lurra-e+|lunareclipse,Giant,Lurra-E+,"Lunar Eclipse",,nopage,,,2026-11-11
 "giant|propel advanced pro 0-di2|prismatichaze",Giant,"Propel Advanced Pro 0-Di2","Prismatic Haze",2026,match,2026,https://www.giant-bicycles.com/sk/propel-advanced-pro-0--di2-,2026-11-11
 "giant|propel advanced pro 1|midnightmoon",Giant,"Propel Advanced Pro 1","Midnight Moon",2026,match,2026,https://www.giant-bicycles.com/sk/propel-advanced-pro-1,2026-11-11
 "giant|reign 2|blackmetal",Giant,"Reign 2",Black/Metal,,nopage,,,2026-11-11
+"giant|reign advanced 2|sangriacarbon",Giant,"Reign Advanced 2",Sangria/Carbon,2024,match,2024,https://www.giant-bicycles.com/cz/reign-advanced-2-2024,2026-11-13
 "giant|revolt 0|marsdust",Giant,"Revolt 0","Mars Dust",2025,match,2025,https://www.giant-bicycles.com/nl/revolt-0-2025,2026-11-11
 "giant|revolt 0|oceanwave",Giant,"Revolt 0","Ocean Wave",2026,match,2026,https://www.giant-bicycles.com/sk/revolt-0,2026-11-11
 "giant|revolt 0|stealthchrome",Giant,"Revolt 0","Stealth Chrome",2026,match,2026,https://www.giant-bicycles.com/nl/revolt-0,2026-11-11
@@ -107,6 +109,7 @@ giant|lurra-e+|lunareclipse,Giant,Lurra-E+,"Lunar Eclipse",,nopage,,,2026-11-11
 "giant|tcr advanced pro 0-di2|midnightmoon",Giant,"TCR Advanced Pro 0-Di2","Midnight Moon",2026,match,2026,https://www.giant-bicycles.com/sk/tcr-advanced-pro-0--di2-,2026-11-11
 "giant|tcr advanced pro 1-axs|carbon",Giant,"TCR Advanced Pro 1-AXS",Carbon,2025,match,2025,https://www.giant-bicycles.com/nl/tcr-advanced-pro-1-axs-2025,2026-11-11
 "giant|tcr advanced pro 1-di2|techsilver",Giant,"TCR Advanced Pro 1-Di2","Tech Silver",2026,match,2026,https://www.giant-bicycles.com/nl/tcr-advanced-pro-1-di2,2026-11-11
+"giant|tcr advanced pro 2 disc|phoenixfire",Giant,"TCR Advanced Pro 2 Disc","Phoenix Fire",,nopage,,,2026-11-13
 "giant|tcx advanced pro 2|kelpforest",Giant,"TCX Advanced Pro 2","Kelp Forest",,nopage,,,2026-11-11
 "giant|tcx advanced pro 2|messier",Giant,"TCX Advanced Pro 2",Messier,,nopage,,,2026-11-11
 "giant|trance advanced 29 1|bluedragonfly",Giant,"Trance Advanced 29 1","Blue Dragonfly",2024,match,2024,https://www.giant-bicycles.com/nl/trance-advanced-29-1-2024,2026-11-11
