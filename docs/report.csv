@@ -31,7 +31,7 @@ ERROR,"neúplné: chýba model_year",1080024146,"Giant Revolt Advanced 2 ML Carb
 ERROR,"neúplné: chýba model_year",1080024144,"Giant Revolt Advanced 2 S Carbon",Giant,"Revolt Advanced 2",,,S,Carbon,GRAVEL,"Bicykle > Gravel bicykle",3199.00,1
 ERROR,"neúplné: chýba model_year",2302026117,"Giant Revolt X 1 L Cold Night",Giant,"Revolt X 1",,,L,"Cold Night",GRAVEL,"Bicykle > Gravel bicykle",1917.00,1
 ERROR,"neúplné: chýba model_year",2302026115,"Giant Revolt X 1 M Cold Night",Giant,"Revolt X 1",,,M,"Cold Night",GRAVEL,"Bicykle > Gravel bicykle",1917.00,2
-ERROR,"neúplné: chýba model_year",2302026116,"Giant Revolt X 1 ML Cold Night",Giant,"Revolt X 1",,,M/L,"Cold Night",GRAVEL,"Bicykle > Gravel bicykle",1917.00,2
+ERROR,"neúplné: chýba model_year",2302026116,"Giant Revolt X 1 ML Cold Night",Giant,"Revolt X 1",,,M/L,"Cold Night",GRAVEL,"Bicykle > Gravel bicykle",1917.00,1
 ERROR,"neúplné: chýba model_year",2302026118,"Giant Revolt X 1 XL Cold Night",Giant,"Revolt X 1",,,XL,"Cold Night",GRAVEL,"Bicykle > Gravel bicykle",1917.00,1
 ERROR,"neúplné: chýba model_year",2103600107,"Giant Revolt-E+ Pro XR-L-rosewood",Giant,"Revolt-E+ Pro XR",,,L,rosewood,GRAVEL,"Bicykle > Gravel bicykle",3325.00,1
 ERROR,"neúplné: chýba model_year",2303318105,"Giant Stance-E+ EX M Charcoal Plum",Giant,"Stance-E+ EX",,,M,"Charcoal Plum",EBIKE,"Elektrobicykle - Elektrický bicykel > Horský elektrobicykel / elektrický horský bicykel > Elektrobicykle horské celoodpružené / Celoodpružený elektrobicykel",3869.00,1
@@ -81,7 +81,7 @@ ERROR,"neúplné: chýba model_year",76195,"KELLYS E-Carson 10 SH Teal L 28"" 63
 ERROR,"neúplné: chýba model_year",76194,"KELLYS E-Carson 10 SH Teal M 28"" 630Wh",Kellys,"E-Carson 10 SH",,,M,Teal,EBIKE,"Elektrobicykle - Elektrický bicykel > Krosové elektrobicykle",1699.00,15
 ERROR,"neúplné: chýba model_year",76165,"KELLYS E-Carson 30 P Anthracite XL 28"" 725Wh",Kellys,"E-Carson 30 P",,,XL,Anthracite,EBIKE,"Elektrobicykle - Elektrický bicykel > Krosové elektrobicykle",2199.00,20
 ERROR,"neúplné: chýba model_year",76167,"KELLYS E-Carson 30 P Magic Blue L 28"" 725Wh",Kellys,"E-Carson 30 P",,,L,"Magic Blue",EBIKE,"Elektrobicykle - Elektrický bicykel > Krosové elektrobicykle",2199.00,20
-ERROR,"neúplné: chýba model_year",76166,"KELLYS E-Carson 30 P Magic Blue M 28"" 725Wh",Kellys,"E-Carson 30 P",,,M,"Magic Blue",EBIKE,"Elektrobicykle - Elektrický bicykel > Krosové elektrobicykle",2199.00,10
+ERROR,"neúplné: chýba model_year",76166,"KELLYS E-Carson 30 P Magic Blue M 28"" 725Wh",Kellys,"E-Carson 30 P",,,M,"Magic Blue",EBIKE,"Elektrobicykle - Elektrický bicykel > Krosové elektrobicykle",2199.00,5
 ERROR,"neúplné: chýba model_year",84137,"KELLYS E-Cristy RS40 P Mocha Grey L 29"" 725Wh",Kellys,"E-Cristy RS40 P",,,L,"Mocha Grey",EBIKE,"Elektrobicykle - Elektrický bicykel > Krosové elektrobicykle",2649.00,20
 ERROR,"neúplné: chýba model_year",86514,"KELLYS E-Cristy RS40 P Mocha Grey M 29"" 725Wh",Kellys,"E-Cristy RS40 P",,,M,"Mocha Grey",EBIKE,"Elektrobicykle - Elektrický bicykel > Krosové elektrobicykle",2649.00,5
 ERROR,"neúplné: chýba model_year",84140,"KELLYS E-Cristy RS40 P Rose Gold L 29"" 725Wh",Kellys,"E-Cristy RS40 P",,,L,"Rose Gold",EBIKE,"Elektrobicykle - Elektrický bicykel > Krosové elektrobicykle",2649.00,20
@@ -89,7 +89,6 @@ ERROR,"neúplné: chýba model_year",84139,"KELLYS E-Cristy RS40 P Rose Gold M 2
 ERROR,"neúplné: chýba model_year",84053,"KELLYS E-Cristy RS70 P Mocha Grey L 29"" 820Wh",Kellys,"E-Cristy RS70 P",,,L,"Mocha Grey",EBIKE,"Elektrobicykle - Elektrický bicykel > Krosové elektrobicykle",3499.00,20
 ERROR,"neúplné: chýba model_year",86513,"KELLYS E-Cristy RS70 P Mocha Grey M 29"" 820Wh",Kellys,"E-Cristy RS70 P",,,M,"Mocha Grey",EBIKE,"Elektrobicykle - Elektrický bicykel > Krosové elektrobicykle",3499.00,5
 ERROR,"neúplné: chýba model_year",76210,"KELLYS Estima 40 SH White M 28"" 504Wh",Kellys,"Estima 40 SH",,,M,White,EBIKE,"Elektrobicykle - Elektrický bicykel > Krosové elektrobicykle",1899.00,5
-ERROR,"neúplné: chýba model_year",72145,"KELLYS Gate 90 M 29""",Kellys,"Gate 90",,,M,"Sage green",MTB,"Bicykle > Horské bicykle > Pevné horské bicykle",1699.00,5
 ERROR,"neúplné: chýba model_year",81902,"KELLYS Gate X90 Emerald Green M 29""",Kellys,"Gate X90",,,M,"Emerald Green",MTB,"Bicykle > Horské bicykle > Pevné horské bicykle",1799.00,20
 ERROR,"neúplné: chýba model_year",82022,"KELLYS Groot 90 Dusty Yellow L",Kellys,"Groot 90",,,L,"Dusty Yellow",GRAVEL,"Bicykle > Gravel bicykle",1599.00,15
 ERROR,"neúplné: chýba model_year",86098,"KELLYS Groot 90 Dusty Yellow L",Kellys,"Groot 90",,,L,"Dusty Yellow",GRAVEL,"Bicykle > Gravel bicykle",1599.00,20
@@ -137,7 +136,6 @@ ERROR,"neúplné: chýba model_year",88289,"KELLYS URC 50 Arctic Sky M",Kellys,"
 ERROR,"neúplné: chýba model_year",83812,"KELLYS URC 50 Arctic Sky S",Kellys,"URC 50",,,S,"Arctic Sky",ROAD,"Bicykle > Cestné bicykle",2399.00,5
 ERROR,"neúplné: chýba model_year",88286,"KELLYS URC 70 Obsidian Black L",Kellys,"URC 70",,,L,"Obsidian Black",ROAD,"Bicykle > Cestné bicykle",3099.00,5
 ERROR,"neúplné: chýba model_year",83809,"KELLYS URC 70 Obsidian Black M",Kellys,"URC 70",,,M,"Obsidian Black",ROAD,"Bicykle > Cestné bicykle",3099.00,5
-ERROR,"neúplné: chýba model_year",83890,"KELLYS e-Soot 70 L Ivory White",Kellys,"e-Soot 70",,,L,"Ivory White",EBIKE,"Elektrobicykle - Elektrický bicykel > Gravel elektrobicykle",2899.00,10
 ERROR,"neúplné: chýba model_year",1017007105,"Liv Giant Avail Advanced Pro 0 M Carbon",Liv,"Avail Advanced Pro 0",,,M,Carbon,ROAD,"Bicykle > Cestné bicykle",4000.00,1
 ERROR,"neúplné: chýba model_year",5680003104,"Liv Giant Avail Advanced-E+ Elite AR S Eucalyptus/Ocean Storm",Liv,"Avail Advanced-E+ Elite AR",,,S,"Eucalyptus/Ocean Storm",ROAD,"Bicykle > Cestné bicykle",6599.00,1
 ERROR,"neúplné: chýba model_year",1021002105,"Liv Giant Brava Advanced Pro 2 M Digital Blurple",Liv,"Brava Advanced Pro 2",,,M,"Digital Blurple",ROAD,"Bicykle > Cestné bicykle",2392.00,2
