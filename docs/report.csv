@@ -46,7 +46,8 @@ ERROR,"neúplné: chýba model_year",1096056246,"Giant TCR Advanced 1-PC ML Purp
 ERROR,"neúplné: chýba model_year",1096056144,"Giant TCR Advanced 1-PC S Dreamy Blue",Giant,"TCR Advanced 1-PC",,,S,"Dreamy Blue",ROAD,"Bicykle > Cestné bicykle",3549.00,1
 ERROR,"neúplné: chýba model_year",1096056148,"Giant TCR Advanced 1-PC XL Dreamy Blue",Giant,"TCR Advanced 1-PC",,,XL,"Dreamy Blue",ROAD,"Bicykle > Cestné bicykle",3549.00,1
 ERROR,"neúplné: chýba model_year",1096056248,"Giant TCR Advanced 1-PC XL Purple Haze",Giant,"TCR Advanced 1-PC",,,XL,"Purple Haze",ROAD,"Bicykle > Cestné bicykle",3549.00,1
-ERROR,"neúplné: chýba model_year",2300010145,"Giant TCR Advanced Pro 2 Disc M Phoenix Fire",Giant,"TCR Advanced Pro 2 Disc",,,M,"Phoenix Fire",ROAD,"Bicykle > Cestné bicykle",1771.00,2
+ERROR,"neúplné: chýba model_year",2300010145,"Giant TCR Advanced Pro 2 Disc M Phoenix Fire",Giant,"TCR Advanced Pro 2 Disc",,,M,"Phoenix Fire",ROAD,"Bicykle > Cestné bicykle",1771.00,1
+ERROR,"neúplné: chýba model_year",2300353107,"Giant TCR Advanced SL 1 Disc-Di2 L Airglow",Giant,"TCR Advanced SL 1 Disc-Di2",,,L,Airglow,ROAD,"Bicykle > Cestné bicykle",3904.00,1
 ERROR,"neúplné: chýba model_year",1098003147,"Giant TCX Advanced Pro 2 L Kelp Forest",Giant,"TCX Advanced Pro 2",,,L,"Kelp Forest",ROAD,"Bicykle > Cestné bicykle",2879.00,3
 ERROR,"neúplné: chýba model_year",2302016148,"Giant TCX Advanced Pro 2 XL Messier",Giant,"TCX Advanced Pro 2",,,XL,Messier,ROAD,"Bicykle > Cestné bicykle",2458.00,2
 ERROR,"neúplné: chýba model_year",2303400158,"Giant Talon-E+ 1 29er XL Shale Green",Giant,"Talon-E+ 1 29er",,,XL,"Shale Green",EBIKE,"Elektrobicykle - Elektrický bicykel > Horský elektrobicykel / elektrický horský bicykel > Pevný horský elektrobicykel / Pevné elektrobicykle",2439.00,1
@@ -83,7 +84,6 @@ ERROR,"neúplné: chýba model_year",84137,"KELLYS E-Cristy RS40 P Mocha Grey L 
 ERROR,"neúplné: chýba model_year",84140,"KELLYS E-Cristy RS40 P Rose Gold L 29"" 725Wh",Kellys,"E-Cristy RS40 P",,,L,"Rose Gold",EBIKE,"Elektrobicykle - Elektrický bicykel > Krosové elektrobicykle",2649.00,20
 ERROR,"neúplné: chýba model_year",84139,"KELLYS E-Cristy RS40 P Rose Gold M 29"" 725Wh",Kellys,"E-Cristy RS40 P",,,M,"Rose Gold",EBIKE,"Elektrobicykle - Elektrický bicykel > Krosové elektrobicykle",2649.00,20
 ERROR,"neúplné: chýba model_year",84053,"KELLYS E-Cristy RS70 P Mocha Grey L 29"" 820Wh",Kellys,"E-Cristy RS70 P",,,L,"Mocha Grey",EBIKE,"Elektrobicykle - Elektrický bicykel > Krosové elektrobicykle",3499.00,20
-ERROR,"neúplné: chýba model_year",86513,"KELLYS E-Cristy RS70 P Mocha Grey M 29"" 820Wh",Kellys,"E-Cristy RS70 P",,,M,"Mocha Grey",EBIKE,"Elektrobicykle - Elektrický bicykel > Krosové elektrobicykle",3499.00,5
 ERROR,"neúplné: chýba model_year",72145,"KELLYS Gate 90 M 29""",Kellys,"Gate 90",,,M,"Sage green",MTB,"Bicykle > Horské bicykle > Pevné horské bicykle",1699.00,5
 ERROR,"neúplné: chýba model_year",81902,"KELLYS Gate X90 Emerald Green M 29""",Kellys,"Gate X90",,,M,"Emerald Green",MTB,"Bicykle > Horské bicykle > Pevné horské bicykle",1799.00,20
 ERROR,"neúplné: chýba model_year",82022,"KELLYS Groot 90 Dusty Yellow L",Kellys,"Groot 90",,,L,"Dusty Yellow",GRAVEL,"Bicykle > Gravel bicykle",1599.00,15
