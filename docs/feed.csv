@@ -3,10 +3,12 @@ product_id,variant_id,brand,model,model_year,product_type,category,condition,con
 1008007104,1008007104,Giant,"Anthem Advanced 29 3",2025,BICYCLE,MTB,NEW,,S,"Ocean Twilight",1,3292.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/7029-1_8uz4100101.jpg?6af50d52
 1008008107,1008008107,Giant,"Anthem Advanced 29 4",2025,BICYCLE,MTB,NEW,,L,"Mars Dust",1,2917.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/18569_ugo6100101.jpg?6af26a51
 1008008105,1008008105,Giant,"Anthem Advanced 29 4",2025,BICYCLE,MTB,NEW,,M,"Mars Dust",1,2917.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/18572_tgo6100101.jpg?6af26a4e
-1008013107,1008013107,Giant,"Anthem Advanced SL 1",2026,BICYCLE,MTB,NEW,,L,"Rainbow Black",1,7299.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/13928_8wn5100101.jpg?6ac8fa62
+2301082145,2301082145,Giant,"Anthem Advanced Pro 29 3",2023,BICYCLE,MTB,NEW,,M,"Phoenix Fire",3,2667.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/1948-2_4qi3100101.jpg?6af50d52
+2301082148,2301082148,Giant,"Anthem Advanced Pro 29 3",2023,BICYCLE,MTB,NEW,,XL,"Phoenix Fire",1,2667.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/10647_4qi3100101.jpg?6ac8fa62
+1008013107,1008013107,Giant,"Anthem Advanced SL 1",2026,BICYCLE,MTB,NEW,,L,"Rainbow Black",2,7299.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/13928_8wn5100101.jpg?6ac8fa62
 1008012105,1008012105,Giant,"Anthem Advanced SL 2",2026,BICYCLE,MTB,NEW,,M,"Mariana Blue",2,5799.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16859_gxn5100101.jpg?6ac8fa62
-1008011107,1008011107,Giant,"Anthem Advanced SL 3",2027,BICYCLE,MTB,NEW,,L,"Rainbow Cobalt",2,4699.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/12356_c0o5100101.jpg?6ac8fa62
-1008011105,1008011105,Giant,"Anthem Advanced SL 3",2027,BICYCLE,MTB,NEW,,M,"Rainbow Cobalt",1,4699.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/12359_c0o5100101.jpg?6ac8fa62
+1008011107,1008011107,Giant,"Anthem Advanced SL 3",2027,BICYCLE,MTB,NEW,,L,"Rainbow Cobalt",4,4699.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/12356_c0o5100101.jpg?6ac8fa62
+1008011105,1008011105,Giant,"Anthem Advanced SL 3",2027,BICYCLE,MTB,NEW,,M,"Rainbow Cobalt",2,4699.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/12359_c0o5100101.jpg?6ac8fa62
 1008017107,1008017107,Giant,"Anthem X Advanced SL 2",2026,BICYCLE,MTB,NEW,,L,"Dark Jungle",2,5999.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16703_a4o5100101.jpg?6ac8fa62
 1008017105,1008017105,Giant,"Anthem X Advanced SL 2",2026,BICYCLE,MTB,NEW,,M,"Dark Jungle",1,5999.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16727_a4o5100101.jpg?6ac8fa62
 1008017108,1008017108,Giant,"Anthem X Advanced SL 2",2026,BICYCLE,MTB,NEW,,XL,"Dark Jungle",1,5999.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16706_a4o5100101.jpg?6ac8fa62
@@ -27,7 +29,6 @@ product_id,variant_id,brand,model,model_year,product_type,category,condition,con
 1031025145,1031025145,Giant,"Defy Advanced Pro 0",2026,BICYCLE,ROAD,NEW,,M,"Mariana Blue",1,6399.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/11249_tsh5100101.jpg?6ac8fa62
 1031025148,1031025148,Giant,"Defy Advanced Pro 0",2026,BICYCLE,ROAD,NEW,,XL,"Mariana Blue",1,6399.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/12599_tsh5100101.jpg?6ac8fa62
 1031015147,1031015147,Giant,"Defy Advanced Pro 1",2025,BICYCLE,ROAD,NEW,,L,"Meteor Storm",1,3958.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/4416_a005100101.jpg?6af65ed7
-1031015146,1031015146,Giant,"Defy Advanced Pro 1",2025,BICYCLE,ROAD,NEW,,M/L,"Meteor Storm",1,3958.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/8697_c005100101.jpg?6ac8fa62
 5060015107,5060015107,Giant,"Explore-E+ 1 DD",2026,BICYCLE,EBIKE,NEW,,L,"Metallic Navy",1,4799.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/17326_ljn5100101.jpg?6ac8fa62
 5060015105,5060015105,Giant,"Explore-E+ 1 DD",2026,BICYCLE,EBIKE,NEW,,M,"Metallic Navy",1,4799.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/17299_ljn5100101.jpg?6ac8fa62
 2303704105,2303704105,Giant,"Explore-E+ 1 DD",2023,BICYCLE,EBIKE,NEW,,M,"Misty Forest",2,3069.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/477-5_wwq3100101.jpg?6ac8fa62
@@ -54,7 +55,8 @@ product_id,variant_id,brand,model,model_year,product_type,category,condition,con
 5060020105,5060020105,Giant,"Explore-E+ 3 STA",2026,BICYCLE,EBIKE,NEW,,M,"Pyrite Brown",2,3549.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/10859-10_5on5100101.jpg?6ac8fa62
 2303709105,2303709105,Giant,"Explore-E+ 3 STA",2023,BICYCLE,EBIKE,NEW,,M,"Space Grey",1,2437.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/3888-2_40r3100101.jpg?6ac8fa62
 2303709104,2303709104,Giant,"Explore-E+ 3 STA",2023,BICYCLE,EBIKE,NEW,,S,"Space Grey",1,2437.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/531-2_40r3100101.jpg?6ac8fa62
-5332005285W,5332005285W,Giant,"Fathom-E+ 2",2027,BICYCLE,EBIKE,NEW,,M,"Stardust Grey",1,3449.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/18533_sgm6100101.jpg?6af26a4e
+5332005287W,5332005287W,Giant,"Fathom-E+ 2",2027,BICYCLE,EBIKE,NEW,,L,"Stardust Grey",1,3449.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/18530_tgm6100101.jpg?6af26a4e
+5332005285W,5332005285W,Giant,"Fathom-E+ 2",2027,BICYCLE,EBIKE,NEW,,M,"Stardust Grey",2,3449.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/18533_sgm6100101.jpg?6af26a4e
 1074034206,1074034206,Giant,"Propel Advanced Pro 0-Di2",2027,BICYCLE,ROAD,NEW,,M/L,"Abyss Teal",2,6599.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16769_ck06100101.jpg?6ac8fa62
 1074034106,1074034106,Giant,"Propel Advanced Pro 0-Di2",2027,BICYCLE,ROAD,NEW,,M/L,"Obsidian Pulse",1,6599.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16772_3j06100101.jpg?6ac8fa62
 1074007107,1074007107,Giant,"Propel Advanced Pro 0-Di2",2025,BICYCLE,ROAD,NEW,,L,"Ocean Twilight",2,5950.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/4290-6_aiy4100101.jpg?6ae92fcc
@@ -67,7 +69,8 @@ product_id,variant_id,brand,model,model_year,product_type,category,condition,con
 1080018285,1080018285,Giant,"Revolt 0",2026,BICYCLE,GRAVEL,NEW,,M,"Ocean Wave",3,1999.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/11186_sjd5100101.jpg?6ac8fa62
 1080018286,1080018286,Giant,"Revolt 0",2026,BICYCLE,GRAVEL,NEW,,M/L,"Ocean Wave",2,1999.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16808_tjd5100101.jpg?6ac8fa62
 108001828644,108001828644,Giant,"Revolt 0",2026,BICYCLE,GRAVEL,NEW,,M/L,"Ocean Wave",1,1999.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/11192_tjd5100101.jpg?6ac8fa62
-1080018185,1080018185,Giant,"Revolt 0",2026,BICYCLE,GRAVEL,NEW,,M,"Stealth Chrome",4,1999.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/11189_ojd5100101.jpg?6ac8fa62
+1080018284,1080018284,Giant,"Revolt 0",2026,BICYCLE,GRAVEL,NEW,,S,"Ocean Wave",1,1999.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/11303_5hh5100101.jpg?6ac8fa62
+1080018185,1080018185,Giant,"Revolt 0",2026,BICYCLE,GRAVEL,NEW,,M,"Stealth Chrome",7,1999.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/11189_ojd5100101.jpg?6ac8fa62
 1080018186,1080018186,Giant,"Revolt 0",2026,BICYCLE,GRAVEL,NEW,,M/L,"Stealth Chrome",3,1999.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/11195_pjd5100101.jpg?6ac8fa62
 1080018184,1080018184,Giant,"Revolt 0",2026,BICYCLE,GRAVEL,NEW,,S,"Stealth Chrome",2,1999.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/11198_njd5100101.jpg?6ac8fa62
 1080014187,1080014187,Giant,"Revolt 1",2026,BICYCLE,GRAVEL,NEW,,L,"Alpine Green",4,1849.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/11204_mjd5100101.jpg?6ac8fa62
@@ -124,7 +127,7 @@ product_id,variant_id,brand,model,model_year,product_type,category,condition,con
 5300002107W,5300002107W,Giant,"Stance-E+ 1",2027,BICYCLE,EBIKE,NEW,,L,Almond/Black,2,4649.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16796_78y5100101.jpg?6af65ed6
 5300002105W,5300002105W,Giant,"Stance-E+ 1",2027,BICYCLE,EBIKE,NEW,,M,Almond/Black,4,4649.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16679_78y5100101.jpg?6ac8fa62
 5300002104W,5300002104W,Giant,"Stance-E+ 1",2027,BICYCLE,EBIKE,NEW,,S,Almond/Black,2,4649.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/13985_78y5100101.jpg?6ac8fa62
-5300002207W,5300002207W,Giant,"Stance-E+ 1",2027,BICYCLE,EBIKE,NEW,,L,Charcoal/Black,2,4649.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16676_d8y5100101.jpg?6ac8fa62
+5300002207W,5300002207W,Giant,"Stance-E+ 1",2027,BICYCLE,EBIKE,NEW,,L,Charcoal/Black,4,4649.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16676_d8y5100101.jpg?6ac8fa62
 5300002205W,5300002205W,Giant,"Stance-E+ 1",2027,BICYCLE,EBIKE,NEW,,M,Charcoal/Black,1,4649.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/17332_d8y5100101.jpg?6af65ed6
 5300003107W,5300003107W,Giant,"Stance-E+ 2",2027,BICYCLE,EBIKE,NEW,,L,"Desert Sage/Black",2,4099.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16688_7ay5100101.jpg?6ac8fa62
 5300003105W,5300003105W,Giant,"Stance-E+ 2",2027,BICYCLE,EBIKE,NEW,,M,"Desert Sage/Black",5,4099.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/14048_7ay5100101.jpg?6acc20d3
@@ -198,7 +201,7 @@ product_id,variant_id,brand,model,model_year,product_type,category,condition,con
 1017008147,1017008147,Liv,"Avail Advanced Pro 1",2024,BICYCLE,ROAD,NEW,,L,"Golden Haze",1,3292.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/7644_mkh4100101.jpg?6af50d54
 5680002104,5680002104,Liv,"Avail Advanced-E+ Elite 2",2026,BICYCLE,ROAD,NEW,,S,"Iron Rouge/Carbon Smoke",1,6899.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/17151-2_udn5100101.jpg?6ad01555
 1032015187,1032015187,Liv,"Devote 0",2026,BICYCLE,GRAVEL,NEW,,L,"Clear Sky",3,1999.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/12602_deh5100101.jpg?6ac8fa62
-1032015185,1032015185,Liv,"Devote 0",2026,BICYCLE,GRAVEL,NEW,,M,"Clear Sky",1,1999.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/11369_eeh5100101.jpg?6ac8fa62
+1032015185,1032015185,Liv,"Devote 0",2026,BICYCLE,GRAVEL,NEW,,M,"Clear Sky",5,1999.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/11369_eeh5100101.jpg?6ac8fa62
 1032002187,1032002187,Liv,"Devote 1",2024,BICYCLE,GRAVEL,NEW,,L,"Charcoal Plum",3,1579.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/4587-13_h005100101.jpg?6ac8fa62
 1032014185,1032014185,Liv,"Devote 1",2026,BICYCLE,GRAVEL,NEW,,M,"Dune Beige",3,1849.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/11453_ieh5100101.jpg?6ac8fa62
 1032014184,1032014184,Liv,"Devote 1",2026,BICYCLE,GRAVEL,NEW,,S,"Dune Beige",3,1849.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/11456_jeh5100101.jpg?6ac8fa62
@@ -211,15 +214,17 @@ product_id,variant_id,brand,model,model_year,product_type,category,condition,con
 1033003107,1033003107,Liv,"Embolden 29 1",2024,BICYCLE,MTB,NEW,,L,"Charcoal Plum",1,1749.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/3948-1_doj4100101.jpg?6af50d52
 5310004105W,5310004105W,Liv,"Embolden-E+ 0",2027,BICYCLE,EBIKE,NEW,,M,Atmosphere/Black,3,5599.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/13958_3by5100101.jpg?6af50d54
 5310004104W,5310004104W,Liv,"Embolden-E+ 0",2027,BICYCLE,EBIKE,NEW,,S,Atmosphere/Black,3,5599.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/14030_3by5100101.jpg?6ac8fa62
-5310005105W,5310005105W,Liv,"Embolden-E+ 1",2027,BICYCLE,EBIKE,NEW,,M,"Pale Moss/Black",2,4649.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/13961_fcy5100101.jpg?6af50d54
-5310005104W,5310005104W,Liv,"Embolden-E+ 1",2027,BICYCLE,EBIKE,NEW,,S,"Pale Moss/Black",1,4649.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/14033_fcy5100101.jpg?6ac8fa62
+5310005105W,5310005105W,Liv,"Embolden-E+ 1",2027,BICYCLE,EBIKE,NEW,,M,"Pale Moss/Black",4,4649.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/13961_fcy5100101.jpg?6af50d54
+5310005104W,5310005104W,Liv,"Embolden-E+ 1",2027,BICYCLE,EBIKE,NEW,,S,"Pale Moss/Black",3,4649.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/14033_fcy5100101.jpg?6ac8fa62
 5310006107W,5310006107W,Liv,"Embolden-E+ 2",2027,BICYCLE,EBIKE,NEW,,L,"Slate Gray/Black",1,4099.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16667_bdy5100101.jpg?6af50d54
 5310006105W,5310006105W,Liv,"Embolden-E+ 2",2027,BICYCLE,EBIKE,NEW,,M,"Slate Gray/Black",2,4099.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16670_bdy5100101.jpg?6ac8fa62
 5310006104W,5310006104W,Liv,"Embolden-E+ 2",2027,BICYCLE,EBIKE,NEW,,S,"Slate Gray/Black",1,4099.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16673_bdy5100101.jpg?6ac8fa62
 1036013105,1036013105,Liv,"EnviLiv Advanced 1",2026,BICYCLE,ROAD,NEW,,M,Thundercloud,1,4399.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/12608_dth5100101.jpg?6ac8fa62
 1036009105,1036009105,Liv,"EnviLiv Advanced 2",2025,BICYCLE,ROAD,NEW,,M,"Prismatic Haze",3,2792.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/7659-1_ktz4100101.jpg?6ac8fa62
+1059001105,1059001105,Liv,"Intrigue 29 1",2024,BICYCLE,MTB,NEW,,M,"Kelp Forest",2,1667.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/20177_1qj4100101.jpg?6af65ed8
 1059001104,1059001104,Liv,"Intrigue 29 1",2024,BICYCLE,MTB,NEW,,S,"Kelp Forest",2,1667.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/1815-7_1qj4100101.jpg?6ae92fcc
 1059002105,1059002105,Liv,"Intrigue Advanced 29 1",2024,BICYCLE,MTB,NEW,,M,"Ice Age",1,2750.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/20183-2_nqj4100101.jpg?6af7b050
+1059002104,1059002104,Liv,"Intrigue Advanced 29 1",2024,BICYCLE,MTB,NEW,,S,"Ice Age",1,2750.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/20186-2_mqj4100101.jpg?6af7b050
 1059003105,1059003105,Liv,"Intrigue Advanced 29 2",2024,BICYCLE,MTB,NEW,,M,Terracotta,1,2292.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/20147_tqj4100101.jpg?6af50d54
 1059003104,1059003104,Liv,"Intrigue Advanced 29 2",2024,BICYCLE,MTB,NEW,,S,Terracotta,1,2292.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/20150_sqj4100101.jpg?6af50d54
 1059004104,1059004104,Liv,"Intrigue LT 1",2024,BICYCLE,MTB,NEW,,S,"Starry Night",1,2083.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/18584_xqj4100101.jpg?6af50d54
@@ -237,11 +242,11 @@ product_id,variant_id,brand,model,model_year,product_type,category,condition,con
 1072006104,1072006104,Liv,"Pique Advanced 29 2",2024,BICYCLE,MTB,NEW,,S,"Golden Haze",1,4375.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/4281-1_ljz4100101.jpg?6ae92fcb
 1072007103,1072007103,Liv,"Pique Advanced 29 3",2024,BICYCLE,MTB,NEW,,XS,"Ice Age",1,3750.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/17120-1_ijz4100101.jpg?6aebd2d0
 1072009104,1072009104,Liv,"Pique Advanced SL 3",2026,BICYCLE,MTB,NEW,,S,"Deep Cove / Sea Sparkle",1,4699.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/12389_a8o5100101.jpg?6ac8fa62
-2303405157,2303405157,Liv,"Tempt-E+ 2 29er",2024,BICYCLE,EBIKE,NEW,,L,"Aged Denim",1,1875.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/1308-3_6ps3100101.jpg?6ac8fa62
-0000167924,0000167924,Mondraker,"Arid Carbon S",2026,BICYCLE,GRAVEL,NEW,,L,superblack,1,3199.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16982_3f16005004ae491c9f92d3256ad93f18.jpg?6ad94fb9
-0000167918,0000167918,Mondraker,"Arid Carbon S",2026,BICYCLE,GRAVEL,NEW,,M,ultraviolet,1,3199.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16985_ec33892eb8374ed085c32e37d5e81be9.jpg?6ad94fb9
+2303405157,2303405157,Liv,"Tempt-E+ 2 29er",2024,BICYCLE,EBIKE,NEW,,L,"Aged Denim",2,1875.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/1308-3_6ps3100101.jpg?6ac8fa62
 0000165590,0000165590,Mondraker,"Arid R",2026,BICYCLE,GRAVEL,NEW,,L,"golden silver",1,2799.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16979_mondraker-arid-r--golden-silver--2026--varianta-velikost-s.jpg?6ac8fa62
+0000165588,0000165588,Mondraker,"Arid R",2026,BICYCLE,GRAVEL,NEW,,M,"golden silver",2,2379.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16979_mondraker-arid-r--golden-silver--2026--varianta-velikost-s.jpg?6ac8fa62
 0000165587,0000165587,Mondraker,"Arid R",2026,BICYCLE,GRAVEL,NEW,,S,"golden silver",1,2379.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16979_mondraker-arid-r--golden-silver--2026--varianta-velikost-s.jpg?6ac8fa62
+0000165591,0000165591,Mondraker,"Arid R",2026,BICYCLE,GRAVEL,NEW,,XL,"golden silver",1,2379.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16979_mondraker-arid-r--golden-silver--2026--varianta-velikost-s.jpg?6ac8fa62
 0000165585,0000165585,Mondraker,"Arid S",2026,BICYCLE,GRAVEL,NEW,,L,bronze,4,2039.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16976_mondraker-arid-s--bronze--2026--varianta-velikost-s.jpg?6aefc750
 0000165583,0000165583,Mondraker,"Arid S",2026,BICYCLE,GRAVEL,NEW,,M,bronze,1,2039.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16976_mondraker-arid-s--bronze--2026--varianta-velikost-s.jpg?6aefc750
 0000165584,0000165584,Mondraker,"Arid S",2026,BICYCLE,GRAVEL,NEW,,M/L,bronze,4,2039.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16976_mondraker-arid-s--bronze--2026--varianta-velikost-s.jpg?6aefc750
@@ -251,22 +256,16 @@ product_id,variant_id,brand,model,model_year,product_type,category,condition,con
 0000167901,0000167901,Mondraker,"Crafty Carbon RR",2026,BICYCLE,EBIKE,NEW,,L,"admiral blue",1,8499.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/17087_7b7cdfff52cf4b2a8d845c55ab2b8305.jpg?6adbf2c4
 0000167899,0000167899,Mondraker,"Crafty Carbon RR",2026,BICYCLE,EBIKE,NEW,,M,"admiral blue",1,8499.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/17087_7b7cdfff52cf4b2a8d845c55ab2b8305.jpg?6adbf2c4
 0000167900,0000167900,Mondraker,"Crafty Carbon RR",2026,BICYCLE,EBIKE,NEW,,M/L,"admiral blue",1,8499.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/17087_7b7cdfff52cf4b2a8d845c55ab2b8305.jpg?6adbf2c4
-0000167886,0000167886,Mondraker,"Crafty Carbon S",2026,BICYCLE,EBIKE,NEW,,L,"atomic orange",1,6499.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/17003_905293ec8a3847789b0983e6c11d5ea2.jpg?6adff553
-0000167884,0000167884,Mondraker,"Crafty Carbon S",2026,BICYCLE,EBIKE,NEW,,M,"atomic orange",1,6499.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/17003_905293ec8a3847789b0983e6c11d5ea2.jpg?6adff553
-0000167885,0000167885,Mondraker,"Crafty Carbon S",2026,BICYCLE,EBIKE,NEW,,M/L,"atomic orange",1,6499.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/17003_905293ec8a3847789b0983e6c11d5ea2.jpg?6adff553
-0000167883,0000167883,Mondraker,"Crafty Carbon S",2026,BICYCLE,EBIKE,NEW,,S,"atomic orange",1,6499.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/17003_905293ec8a3847789b0983e6c11d5ea2.jpg?6adff553
-0000167758,0000167758,Mondraker,"Dusty R",2026,BICYCLE,EBIKE,NEW,,L,"desert grey",1,5999.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/17093_db8eda9132444525b4fb95f50b3297e6.jpg?6ae146d5
 0000044008,0000044008,Mondraker,"F-Podium Carbon",2025,BICYCLE,MTB,NEW,,L,"carbon/carrera blue/midnight blue",4,3199.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16916_mondraker-f-podium-carbon--carbon-carrera-blue-midnight-blue--2025--varianta-velikost-l-.jpg?6ac8fa62
+0000044009,0000044009,Mondraker,"F-Podium Carbon",2025,BICYCLE,MTB,NEW,,M,"carbon/carrera blue/midnight blue",6,3199.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16916_mondraker-f-podium-carbon--carbon-carrera-blue-midnight-blue--2025--varianta-velikost-l-.jpg?6ac8fa62
+0000044010,0000044010,Mondraker,"F-Podium Carbon",2025,BICYCLE,MTB,NEW,,S,"carbon/carrera blue/midnight blue",1,3199.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16916_mondraker-f-podium-carbon--carbon-carrera-blue-midnight-blue--2025--varianta-velikost-l-.jpg?6ac8fa62
+0000044011,0000044011,Mondraker,"F-Podium Carbon",2025,BICYCLE,MTB,NEW,,XL,"carbon/carrera blue/midnight blue",2,3199.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16916_mondraker-f-podium-carbon--carbon-carrera-blue-midnight-blue--2025--varianta-velikost-l-.jpg?6ac8fa62
+0000041059,0000041059,Mondraker,Raze,2025,BICYCLE,MTB,NEW,,L,"black/dirty white",34,1879.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16886_e210621bddf34376ac9cc3b767f34ed6.jpg?6adbf2c4
+0000041060,0000041060,Mondraker,Raze,2025,BICYCLE,MTB,NEW,,M,"black/dirty white",22,1879.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16886_e210621bddf34376ac9cc3b767f34ed6.jpg?6adbf2c4
 0000041061,0000041061,Mondraker,Raze,2025,BICYCLE,MTB,NEW,,S,"black/dirty white",1,1919.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16886_e210621bddf34376ac9cc3b767f34ed6.jpg?6adbf2c4
-0000041066,0000041066,Mondraker,"Raze Carbon R",2025,BICYCLE,MTB,NEW,,L,"racing silver/orange",12,3519.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16889_6b016d8c5e2f4f60b9ca25937d75dcaf.jpg?6ae146d5
-0000041067,0000041067,Mondraker,"Raze Carbon R",2025,BICYCLE,MTB,NEW,,M,"racing silver/orange",8,3519.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16889_6b016d8c5e2f4f60b9ca25937d75dcaf.jpg?6ae146d5
-0000041068,0000041068,Mondraker,"Raze Carbon R",2025,BICYCLE,MTB,NEW,,S,"racing silver/orange",1,4499.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16889_6b016d8c5e2f4f60b9ca25937d75dcaf.jpg?6ae146d5
-0000041069,0000041069,Mondraker,"Raze Carbon R",2025,BICYCLE,MTB,NEW,,XL,"racing silver/orange",7,3519.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16889_6b016d8c5e2f4f60b9ca25937d75dcaf.jpg?6ae146d5
-0000041063,0000041063,Mondraker,"Raze R",2025,BICYCLE,MTB,NEW,,L,"cherry red/nimbus grey",10,2559.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/17057_6a3b2332b3914e3da92f11a690daf3c1.jpg?6ae146d5
-0000041064,0000041064,Mondraker,"Raze R",2025,BICYCLE,MTB,NEW,,M,"cherry red/nimbus grey",6,2559.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/17057_6a3b2332b3914e3da92f11a690daf3c1.jpg?6ae146d5
-0000041065,0000041065,Mondraker,"Raze R",2025,BICYCLE,MTB,NEW,,XL,"cherry red/nimbus grey",2,2559.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/17057_6a3b2332b3914e3da92f11a690daf3c1.jpg?6ae146d5
-0000043954,0000043954,Mondraker,Superfoxy,2023,BICYCLE,MTB,NEW,,M,"racing silver/blue marlin",8,2399.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/17060_2ea42d8003e2452fb263a03a01d1c833.jpg?6ae146d5
-0000043956,0000043956,Mondraker,Superfoxy,2023,BICYCLE,MTB,NEW,,XL,"racing silver/blue marlin",2,2399.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/17060_2ea42d8003e2452fb263a03a01d1c833.jpg?6ae146d5
+0000041062,0000041062,Mondraker,Raze,2025,BICYCLE,MTB,NEW,,XL,"black/dirty white",8,1879.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16886_e210621bddf34376ac9cc3b767f34ed6.jpg?6adbf2c4
+0000168038,0000168038,Mondraker,"Sly RR",2026,BICYCLE,EBIKE,NEW,,L,"denim blue",1,6999.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16991_042df710db414a9fa56f5f0fcc6740ce.jpg?6adbf2c4
+0000168037,0000168037,Mondraker,"Sly RR",2026,BICYCLE,EBIKE,NEW,,M/L,"denim blue",1,6999.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/16991_042df710db414a9fa56f5f0fcc6740ce.jpg?6adbf2c4
 3MD010.23101-L,3MD010.23101-L,Mondraker,"horské kolo MONDRAKER Foxy",2023,BICYCLE,MTB,NEW,,L,"black/nimbus grey/flame red",10,2560.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/7080-1_mondraker-nimbus.jpg?6ac8fa62
 3MD010.23101-M,3MD010.23101-M,Mondraker,"horské kolo MONDRAKER Foxy",2023,BICYCLE,MTB,NEW,,M,"black/nimbus grey/flame red",10,2560.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/7080-1_mondraker-nimbus.jpg?6ac8fa62
 3MD010.23101-S,3MD010.23101-S,Mondraker,"horské kolo MONDRAKER Foxy",2023,BICYCLE,MTB,NEW,,S,"black/nimbus grey/flame red",1,2560.00,https://cdn.myshoptet.com/usr/www.kostrabike.sk/user/shop/orig/7080-1_mondraker-nimbus.jpg?6ac8fa62
