@@ -38,6 +38,8 @@ key,brand,model,color,year,status,candidates,source,checked
 "giant|fathom-e+ ex|goodgrey",Giant,"Fathom-E+ EX","Good Grey",,nopage,,,2026-11-11
 giant|fathom-e+|deeplake,Giant,Fathom-E+,"Deep lake",,nopage,,,2026-11-11
 "giant|glory advanced|shoreline",Giant,"Glory Advanced",Shoreline,,nopage,,,2026-11-13
+"giant|lurra-e+ 1|desertpearl",Giant,"Lurra-E+ 1","Desert Pearl",,nopage,,,2026-11-27
+"giant|lurra-e+ 2|auroranoise",Giant,"Lurra-E+ 2","Aurora Noise",,nopage,,,2026-11-27
 "giant|lurra-e+ 2|seasparkle",Giant,"Lurra-E+ 2","Sea Sparkle",,nopage,,,2026-11-11
 "giant|lurra-e+ ex|graydawn",Giant,"Lurra-E+ EX","Gray Dawn",,nopage,,,2026-11-11
 giant|lurra-e+|lunareclipse,Giant,Lurra-E+,"Lunar Eclipse",,nopage,,,2026-11-11
@@ -85,6 +87,7 @@ giant|lurra-e+|lunareclipse,Giant,Lurra-E+,"Lunar Eclipse",,nopage,,,2026-11-11
 "giant|stance-e+ ex|charcoalplum",Giant,"Stance-E+ EX","Charcoal Plum",,nopage,,,2026-11-11
 "giant|stp 26-liv|quicksilver",Giant,"STP 26-Liv",Quicksilver,,nopage,,,2026-11-11
 "giant|talon-e+ 1 29er|shalegreen",Giant,"Talon-E+ 1 29er","Shale Green",,nopage,,,2026-11-11
+"giant|talon-e+ 1|almond",Giant,"Talon-E+ 1",Almond,2027,match,2027,https://www.giant-bicycles.com/cz/talon-eplus-1-2027,2026-11-27
 "giant|talon-e+ 2 29er|amberglow",Giant,"Talon-E+ 2 29er","Amber Glow",,nopage,,,2026-11-11
 "giant|talon-e+ box|asphaltgreen",Giant,"Talon-E+ BOX","Asphalt Green",,nopage,,,2026-11-11
 "giant|talon-e+ box|electronblue",Giant,"Talon-E+ BOX","Electron Blue",,nopage,,,2026-11-11

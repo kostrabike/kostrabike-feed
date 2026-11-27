@@ -13,6 +13,10 @@ ERROR,"neúplné: chýba model_year",5332002187,"Giant Fathom-E+ EX L Good Grey"
 ERROR,"neúplné: chýba model_year",5332002185,"Giant Fathom-E+ EX M Good Grey",Giant,"Fathom-E+ EX",,,M,"Good Grey",EBIKE,"Elektrobicykle - Elektrický bicykel > Horský elektrobicykel / elektrický horský bicykel > Pevný horský elektrobicykel / Pevné elektrobicykle",3599.00,2
 ERROR,"neúplné: chýba model_year",5332001185,"Giant Fathom-E+ M Deep lake",Giant,Fathom-E+,,,M,"Deep lake",EBIKE,"Elektrobicykle - Elektrický bicykel > Horský elektrobicykel / elektrický horský bicykel > Pevný horský elektrobicykel / Pevné elektrobicykle",3399.00,2
 ERROR,"neúplné: chýba model_year",2301091107,"Giant Glory Advanced L/XL Shoreline",Giant,"Glory Advanced",,,L/XL,Shoreline,MTB,"Bicykle > Horské bicykle > Celoodpružené horské bicykle",4333.00,1
+ERROR,"neúplné: chýba model_year",5700002185W,"Giant Lurra-E+ 1 M Desert Pearl",Giant,"Lurra-E+ 1",,,M,"Desert Pearl",MTB,"Bicykle > Horské bicykle > Pevné horské bicykle",3749.00,1
+ERROR,"neúplné: chýba model_year",5700002184W,"Giant Lurra-E+ 1 S Desert Pearl",Giant,"Lurra-E+ 1",,,S,"Desert Pearl",MTB,"Bicykle > Horské bicykle > Pevné horské bicykle",3749.00,2
+ERROR,"neúplné: chýba model_year",5700003185W,"Giant Lurra-E+ 2 M Aurora Noise",Giant,"Lurra-E+ 2",,,M,"Aurora Noise",MTB,"Bicykle > Horské bicykle > Pevné horské bicykle",3449.00,1
+ERROR,"neúplné: chýba model_year",5700003184W,"Giant Lurra-E+ 2 S Aurora Noise",Giant,"Lurra-E+ 2",,,S,"Aurora Noise",MTB,"Bicykle > Horské bicykle > Pevné horské bicykle",3449.00,1
 ERROR,"neúplné: chýba model_year",5700001187,"Giant Lurra-E+ EX L Gray Dawn",Giant,"Lurra-E+ EX",,,L,"Gray Dawn",MTB,"Bicykle > Horské bicykle > Pevné horské bicykle",3599.00,4
 ERROR,"neúplné: chýba model_year",5700001185,"Giant Lurra-E+ EX M Gray Dawn",Giant,"Lurra-E+ EX",,,M,"Gray Dawn",MTB,"Bicykle > Horské bicykle > Pevné horské bicykle",3599.00,4
 ERROR,"neúplné: chýba model_year",5700001184,"Giant Lurra-E+ EX S Gray Dawn",Giant,"Lurra-E+ EX",,,S,"Gray Dawn",MTB,"Bicykle > Horské bicykle > Pevné horské bicykle",3599.00,2
@@ -133,6 +137,7 @@ ERROR,"neúplné: chýba model_year",83809,"KELLYS URC 70 Obsidian Black M",Kell
 ERROR,"neúplné: chýba model_year",83890,"KELLYS e-Soot 70 L Ivory White",Kellys,"e-Soot 70",,,L,"Ivory White",EBIKE,"Elektrobicykle - Elektrický bicykel > Gravel elektrobicykle",2899.00,10
 ERROR,"neúplné: chýba model_year",1017007105,"Liv Giant Avail Advanced Pro 0 M Carbon",Liv,"Avail Advanced Pro 0",,,M,Carbon,ROAD,"Bicykle > Cestné bicykle",4000.00,2
 ERROR,"neúplné: chýba model_year",5680003104,"Liv Giant Avail Advanced-E+ Elite AR S Eucalyptus/Ocean Storm",Liv,"Avail Advanced-E+ Elite AR",,,S,"Eucalyptus/Ocean Storm",ROAD,"Bicykle > Cestné bicykle",6599.00,1
+ERROR,"neúplné: chýba model_year",1021002105,"Liv Giant Brava Advanced Pro 2 M Digital Blurple",Liv,"Brava Advanced Pro 2",,,M,"Digital Blurple",ROAD,"Bicykle > Cestné bicykle",2392.00,2
 ERROR,"neúplné: chýba model_year",1021002104,"Liv Giant Brava Advanced Pro 2 S Digital Blurple",Liv,"Brava Advanced Pro 2",,,S,"Digital Blurple",ROAD,"Bicykle > Cestné bicykle",3199.00,1
 ERROR,"neúplné: chýba model_year",1032011144,"Liv Giant Devote Advanced 0 S Tiger Red",Liv,"Devote Advanced 0",,,S,"Tiger Red",GRAVEL,"Bicykle > Gravel bicykle",3909.00,1
 ERROR,"neúplné: chýba model_year",1032006145TR,"Liv Giant Devote Advanced 1 M Tiger Red",Liv,"Devote Advanced 1",,,M,"Tiger Red",GRAVEL,"Bicykle > Gravel bicykle",2917.00,1
@@ -148,7 +153,7 @@ ERROR,"neúplné: chýba model_year",5550001107W,"Liv Giant Tempt-E+ EX BOX L Sa
 ERROR,"neúplné: chýba model_year",5550001105W,"Liv Giant Tempt-E+ EX BOX M Sandshell",Liv,"Tempt-E+ EX BOX",,,M,Sandshell,EBIKE,"Elektrobicykle - Elektrický bicykel > Horský elektrobicykel / elektrický horský bicykel > Pevný horský elektrobicykel / Pevné elektrobicykle",2899.00,2
 ERROR,"neúplné: chýba model_year",5022004157,"Liv Giant Vall-E+ 3 L Amber Glow",Liv,"Vall-E+ 3",,,L,"Amber Glow",EBIKE,"Elektrobicykle - Elektrický bicykel > Horský elektrobicykel / elektrický horský bicykel > Pevný horský elektrobicykel / Pevné elektrobicykle",2549.00,4
 ERROR,"neúplné: chýba model_year; chýba size",1090030180,"Giant STP 26-Liv One Size Quicksilver",Giant,"STP 26-Liv",,,NONE,Quicksilver,MTB,"Bicykle > Dirt bicykle",1729.00,3
-INFO,"vylúčená kategória",1135003100,"Giant Faith 24-Liv One Size Neo Mint",Giant,"Faith 24-Liv",,,NONE,"Neo Mint",,"Bicykle > Detské bicykle > Detské bicykle 24""",2449.00,2
+INFO,"vylúčená kategória",1135003100,"Giant Faith 24-Liv One Size Neo Mint",Giant,"Faith 24-Liv",,,NONE,"Neo Mint",,"Bicykle > Detské bicykle > Detské bicykle 24""",2449.00,1
 INFO,"vylúčená kategória",1041010115,"Giant FastRoad AR Advanced 2 M Tiger Red",Giant,"FastRoad AR Advanced 2",,,M,"Tiger Red",,"Bicykle > Krosové bicykle",1749.00,1
 INFO,"vylúčená kategória",5022001194,"Giant Lurra-E+ 2 S Sea Sparkle",Giant,"Lurra-E+ 2",,,S,"Sea Sparkle",,"Bicykle > Detské bicykle > Detské bicykle 26""/27.5""",3069.00,1
 INFO,"vylúčená kategória",2203700107,"Giant Roam-E+ GTS L Black",Giant,"Roam-E+ GTS",,,L,Black,,"Bicykle > Krosové bicykle",1750.00,2
